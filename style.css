@@ -1,8 +1,8 @@
 body {
+	line-height: 1.8;
 	margin:auto;
+	max-width:100%;
 padding:0;
-max-width:1100px;
-height:100%;
 }
 .jumbotron {
 	background-color: #f4511e;
@@ -113,9 +113,7 @@ footer .glyphicon {
     color: #f4511e;
 }
  @media screen and (max-width: 968px) {
-	 body{
- max-width:100%;
- }
+	
     .box{
 		width:90px;
 		height:90px;
@@ -129,3 +127,72 @@ footer .glyphicon {
 		display:block;
 	}
 }
+@media screen and (max-width: 609px) {
+ body{
+ margin:auto;
+ }
+ #name{
+ font-family:Tangerine !important;
+ }
+ #intro{
+ font-family:Tangerine;
+ font-size:60px !important;
+ }
+ }
+  @media screen and (max-width: 450px) {
+  body{
+ margin:auto;
+ overflow-x:hidden;
+ 
+ }
+ .main {
+ margin:0;
+ padding:1px;
+ }
+ .main nav{
+margin:0 1px;
+padding:1px;
+ }
+ #name{
+ font-family:Tangerine !important;
+ }
+ #intro{
+ font-family:Tangerine;
+ font-size:50px !important;
+ }
+ h3{
+ font-size:20px !important;
+ }
+ #intro1{
+  font-family:Antic Slab cursive !important;
+ font-size:20px !important;
+ }
+ }
+ @media screen and (max-width: 360px) {
+  body{
+ margin:auto;
+ overflow-x:hidden;
+ }
+ .main {
+ margin:0;
+ padding:1px;
+ }
+ .main nav{
+margin:0 1px;
+padding:1px;
+ }
+ #name{
+ font-family:Tangerine !important;
+ }
+ #intro{
+ font-family:Tangerine;
+ font-size:30px !important;
+ }
+ h3{
+ font-size:15px !important;
+ }
+ #intro1{
+  font-family:Antic Slab cursive !important;
+ font-size:15px !important;
+ }
+ }
