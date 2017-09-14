@@ -112,6 +112,9 @@ footer .glyphicon {
     color: #f4511e;
 }
  @media screen and (max-width: 968px) {
+	 body{
+ max-width:100%;
+ }
     .box{
 		width:90px;
 		height:90px;
