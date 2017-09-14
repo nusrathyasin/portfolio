@@ -1,7 +1,11 @@
 body {
-margin:0px;
+
+	margin:0px;
 padding:0px;
+width:auto;
+border:0;
 }
+
 .jumbotron {
 	background-color: #f4511e;
     color: #fff;
@@ -154,12 +158,19 @@ height:100%;
  }
  }
   @media screen and (max-width: 450px) {
-
+  body{
+  box-sizing:border-box !important;
+    margin:0px;
+    padding:0px !important;
+    height:100%;
+ }
  .main {
  margin:0;
  padding:1px;
  }
- 
+ .main nav{
+margin:0 1px;
+padding:1px;
  }
  #name{
  font-family:Tangerine !important;
