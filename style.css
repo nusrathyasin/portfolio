@@ -1,15 +1,14 @@
 body {
-	line-height: 1.8;
-	margin:auto;
-	max-width:100%;
-padding:0;
+margin:0px;
+padding:0px;
 }
 .jumbotron {
 	background-color: #f4511e;
     color: #fff;
-    padding:174px 25px ;
+	width:100%;
+    padding:195px 25px ;
 }
-.container-fluid {
+ .container-fluid {
 	padding:30px 20px;
 }
 h1 {
@@ -18,6 +17,9 @@ h1 {
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
+}
+ul li:hover{
+background-color:black;
 }
 .about-me{
 	padding-bottom:60px;
@@ -30,19 +32,31 @@ h1 {
 	padding-bottom:30px;
 }
 #section3 {
-	padding-bottom:120px;
+	//padding-bottom:150px;
 	background-color:#f7e4de;
+	
 }
 .skills{
-margin-left:190px;
+margin:auto;
+display:block;
+width:50%;
+padding-bottom:150px;
 }
-//#section4 {
-	padding-bottom:125px;
+.box{
+	margin-top:50px;
+	border:1px solid black;
+	width:150px;
+	height:150px;
+	border-radius:20px;
+	text-align:center;
+	padding-top:55px;
+	color:white;
 }
+
 #section4 img {
 	height:250px;
 	width:100%;
-	//margin-top:60px;
+
 	border:2px solid  #f4511e;
 	margin-left:20px;
 }
@@ -68,7 +82,8 @@ margin-left:190px;
 	box-shadow:2px 2px 2px 2px grey;
 }
 .text {
-	white-space: wrap; 
+	
+	text-align:justify;
 	color: white;
 	font-size: 15px;
 	position: absolute;
@@ -81,15 +96,12 @@ margin-left:190px;
 #section5 {
 	padding-bottom:120px;
 }
-#section5 img{
-	border:2px solid  #f4511e;
-	height:400px;
-	width:420px;
-	margin-left:20px;
-}
+
+
 #section6 {
 	padding-bottom:100px;
 	background-color:#f7e4de;
+	width:100%;
 }
 #section6 a {
 	border:1px solid grey;
@@ -113,7 +125,6 @@ footer .glyphicon {
     color: #f4511e;
 }
  @media screen and (max-width: 968px) {
-	
     .box{
 		width:90px;
 		height:90px;
@@ -127,10 +138,13 @@ footer .glyphicon {
 		display:block;
 	}
 }
-@media screen and (max-width: 609px) {
+ @media screen and (max-width: 609px) {
  body{
- margin:auto;
- }
+ margin:0 auto;
+padding:0;
+max-width:100%;
+height:100%;
+}
  #name{
  font-family:Tangerine !important;
  }
@@ -140,18 +154,12 @@ footer .glyphicon {
  }
  }
   @media screen and (max-width: 450px) {
-  body{
- margin:auto;
- overflow-x:hidden;
- display:inline;
- }
+
  .main {
  margin:0;
  padding:1px;
  }
- .main nav{
-margin:0 1px;
-padding:1px;
+ 
  }
  #name{
  font-family:Tangerine !important;
@@ -167,20 +175,14 @@ padding:1px;
   font-family:Antic Slab cursive !important;
  font-size:20px !important;
  }
+ #section4 .text{
+ font-size:12px !important;
+ }
  }
  @media screen and (max-width: 360px) {
-  body{
- margin:auto;
- overflow-x:hidden;
- display:inline;
- }
- .main {
+  .main {
  margin:0;
  padding:1px;
- }
- .main nav{
-margin:0 1px;
-padding:1px;
  }
  #name{
  font-family:Tangerine !important;
@@ -195,5 +197,8 @@ padding:1px;
  #intro1{
   font-family:Antic Slab cursive !important;
  font-size:15px !important;
+ }
+ #section4 .text{
+ font-size:10px !important;
  }
  }
